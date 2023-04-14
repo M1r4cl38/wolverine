@@ -3,34 +3,40 @@ body {
 }
 
 main {
-    width: 1000px;
+    width: 1100px;
     display: flex;
-    margin-left: calc((100% - 1000px)/2);
+    margin-left: calc((100% - 1100px)/2);
     margin-top: 35px;
 }
 
 div {
     text-align: center;
-    width: 35%;
+    width: 67%;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 80px;
+
 }
 
 h1 {
-    font-size: 120px;
+    font-size: 150px;
     color: white;
     margin: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 
 h2 {
     font-size: 60px;
     color: #FFCD30;
     margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 32px;
     color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
 }
 
 p {
@@ -38,6 +44,7 @@ p {
     color: white;
     padding: 20px;
     padding-bottom: 70px;
+    font-family: 'Work Sans', sans-serif;
 }
 
 a {
@@ -50,5 +57,8 @@ a {
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 10px;
-    
+}
+
+img {
+    width: 150%;
 }
